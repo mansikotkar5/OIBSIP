@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Times,serif;
+    color: black;
+    background-color: white;
+}
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+}
+.header > .title{
+    margin-bottom: 1rem;
+}
+
+.tribute{
+    display: grid;
+    max-width: 70rem;
+    margin: 0px auto;
+    background: gainsboro;
+    color: black;
+    align-items: center;
+    padding: 2rem auto;
+}
+.tribute blockquote{
+    text-align:center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.tribute img{
+    max-width: 100x;
+    align-items: center;
+    margin: 2rem auto;
+    padding-right: auto ;
+}
+
+.bio{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 70rem;
+}
+.bio > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.bio > p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.bio > hr{
+    margin-top: 2rem;
+}
+.bio > h3{
+    margin: 2rem auto;
+    font-size: 2rem;
+}
